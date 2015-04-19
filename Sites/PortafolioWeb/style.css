@@ -1,0 +1,280 @@
+
+@font-face { 
+	font-family: 'Metric-Bold';
+	src: url('Fonts/Metric-Bold/fonts/Metric-Bold.eot');
+	src: url('Fonts/Metric-Bold/fonts/Metric-Bold.woff') format('woff'), 
+		 url('Fonts/Metric-Bold/fonts/Metric-Bold.ttf') format('truetype'), 
+		 url('Fonts/Metric-Bold/fonts/Metric-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+   font-family: 'Metric-Medium';
+  src: url('Fonts/Metric-Medium/Metric-Medium.eot?#iefix') format('embedded-opentype'),  
+  		url('Fonts/Metric-Medium/Metric-Medium.otf')  format('opentype'),
+	    url('Fonts/Metric-Medium/Metric-Medium.woff') format('woff'), 
+	    url('Fonts/Metric-Medium/Metric-Medium.ttf')  format('truetype'), 
+	    url('Fonts/Metric-Medium/Metric-Medium.svg#Metric-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	padding:0;
+	margin: 0;
+}
+
+
+nav{
+	display: block;
+	overflow: scroll;
+	position:fixed;
+	padding: 30px 15px 50px 0px;
+	width:20%;
+	height: 100%;;
+}
+
+h1{
+	display: block;
+	font-size: 24pt;
+	font-family: 'Metric-Bold'; 
+	margin: 0px 15px 5px 20px;
+	border-bottom: 7pt solid black;
+
+}
+
+nav ul{
+	display: block;
+	list-style: none;
+	font-family: 'Metric-Medium';
+	font-size: 14pt;
+}
+
+nav ul li{
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+
+.menu{
+	display: block;
+	margin-left: 0px;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+.Submenu{
+	display: block;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 12pt;
+
+}
+
+.SubSubMenu{
+	margin-left: 25px;
+	text-decoration: none;
+	font-size: 12pt;
+	display: block;
+}
+
+.SubSubSubMenu{
+	margin-left: 30px;
+	text-decoration: none;
+	font-size: 12pt;
+	display: block;
+}
+
+
+#wrapper{
+	width: 85%;
+	height: 100%;
+	float:right;
+	margin-bottom: 0px;
+	margin-left: 5%;
+}
+
+.fondos {
+	margin-left: 150px;
+	width: 80%;
+	padding-top: 250px;
+}
+
+#video{
+	background:#E8D600;
+	width: 94%;
+	height: 800px;
+	margin-left:6%;
+}
+
+#foto{
+	background:#FF9C00;
+	width: 94%;
+	height: 800px;
+	margin-left:6%;
+}
+
+#ilustracion{
+	background:#DC2B17;
+	width: 94%;
+	height: 800px;
+	margin-left:6%;
+}
+
+#narrativas{
+	background:#92FF33;
+	width: 94%;
+	height: 800px;
+	margin-left:6%;
+}
+
+#narrativas img{
+	width:95%;
+	margin-left: 2%;
+}
+
+#blog{
+	background:#39C1E5;
+	width: 94%;
+	height: 800px;
+	margin-left:6%;
+}
+
+#proyectos{
+	background:#2635C5;
+	width: 94%;
+	height: 800px;
+	padding-top: 25px;
+	margin-left:6%;
+
+}
+
+#contacto{
+	background:#9D32C7;
+	width: 94%;
+	height: 800px;
+	padding-top: 25px;
+	margin-left:6%;
+
+}
+.categorias{
+	margin-bottom: 50px;
+}
+
+.categorias img{
+	margin-left: 12%;
+}
+
+
+h2,h3, h4{
+font-family: 'Metric-Bold';
+}
+
+h2{
+	font-size: 45pt;
+	text-align: center;
+}
+
+h3{
+	font-size: 30pt;
+	margin-left: 130px;
+	display: block;
+	margin-bottom: 5px;
+
+}
+
+
+.BloqueNarr{
+	color:#92FF33; 
+	display: block;
+	border-top: 7pt solid #92FF33;
+	border-bottom: 7pt solid #92FF33;
+	padding-top: 19px;
+	width: 94%;
+	margin:0 auto;
+	margin-left: 6%;
+}
+.EjerciciosNarr{
+/*	color: #39C1E5;
+*/
+color: #7F7F7F;
+}
+
+.bloque1{
+	margin: 0% 10% 10% 12%;
+}
+
+h4{
+	font-size: 20pt;
+	display: block;
+	text-decoration: underline;
+	color: #AAAAAA;
+	margin-bottom: 20px;
+}
+
+.bloque1 img {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 763px;
+	/*height: 500px;*/
+}
+
+.galeria{
+	width:100%;
+	display: inline-block;
+}
+
+.galeria img{
+	width:28.8%;
+/*	width: 28.8%;
+	height: 23.19%;*/
+	display: block;
+	float:left;
+}
+
+#final{
+	margin: 0px;
+}
+
+img{ 
+	filter: saturate(0%);
+-webkit-filter: saturate(0%);
+-moz-filter: saturate(0%);
+-o-filter: saturate(0%);
+-ms-filter: saturate(0%);
+}
+
+img:hover{
+	filter: saturate(100%);
+-webkit-filter: saturate(100%);
+-moz-filter: saturate(100%);
+-o-filter: saturate(100%);
+-ms-filter: saturate(100%);
+}
+
+
+
+.fullsize{
+	width:100%;
+	height:100%;
+}
+
+a:link, a:visited { 
+    color: #000000;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: #000000;
+}
+
+span ,p, a{
+	font-family: 'Metric-Medium';
+	margin: 15px 10px;
+	display: block;
+}
+p{
+	width: 763px;
+	margin: 10px;
+}
+
